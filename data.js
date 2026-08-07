@@ -7,9 +7,10 @@ window.PLACES=[
     "detail": "Quartier / photo urbaine",
     "quarter": "Hammerbrook",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du secteur · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamburg%20Hammerbrook%20DS089n.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Hamburg_Hammerbrook_DS089n.jpg"
   },
   {
     "id": 2,
@@ -19,9 +20,10 @@ window.PLACES=[
     "detail": "Culture / lieu alternatif",
     "quarter": "Altona & Fischmarkt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fischmarkt%20Hamburg%20(14844005).jpeg?width=1200",
-    "imageCredit": "Aperçu d’Altona · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fabrik-Hamburg-Altona.JPG?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Fabrik-Hamburg-Altona.JPG"
   },
   {
     "id": 3,
@@ -31,9 +33,10 @@ window.PLACES=[
     "detail": "Culture / architecture",
     "quarter": "Barmbek & City Nord",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kampnagel%20(Hamburg).jpg?width=1200",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kampnagel%20(Hamburg).jpg?width=1400",
     "imageCredit": "Wikimedia Commons",
-    "imageKind": "photo"
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Kampnagel_(Hamburg).jpg"
   },
   {
     "id": 4,
@@ -43,9 +46,10 @@ window.PLACES=[
     "detail": "Auto / musée",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/004%20Tourist%20attraction%20in%20Hamburg%20-%20Prototyp%20car%20prototype%20museum.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:004_Tourist_attraction_in_Hamburg_-_Prototyp_car_prototype_museum.jpg"
   },
   {
     "id": 5,
@@ -55,9 +59,10 @@ window.PLACES=[
     "detail": "Auto / lieu insolite",
     "quarter": "Est du port",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%B6hlbrandbr%C3%BCcke%20(Hamburg).jpg?width=1200",
-    "imageCredit": "Aperçu du port · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Historie-%20und%20Oldtimer-Tankstelle%20Brandshof.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Historie-_und_Oldtimer-Tankstelle_Brandshof.jpg"
   },
   {
     "id": 6,
@@ -67,9 +72,10 @@ window.PLACES=[
     "detail": "Marché / gastronomie",
     "quarter": "Schanze & Eimsbüttel",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ParkFiction%20in%20Hamburg-Sankt%20Pauli.jpg?width=1200",
-    "imageCredit": "Aperçu du secteur · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 7,
@@ -79,9 +85,10 @@ window.PLACES=[
     "detail": "Gastronomie / poisson",
     "quarter": "Altona & Fischmarkt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fischmarkt%20Hamburg%20(14844005).jpeg?width=1200",
-    "imageCredit": "Aperçu d’Altona · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 8,
@@ -91,9 +98,10 @@ window.PLACES=[
     "detail": "Gastronomie / poisson",
     "quarter": "Altona & Fischmarkt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fischmarkt%20Hamburg%20(14844005).jpeg?width=1200",
-    "imageCredit": "Aperçu d’Altona · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 9,
@@ -103,9 +111,10 @@ window.PLACES=[
     "detail": "Quartier / port / photo",
     "quarter": "Altona & Fischmarkt",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fischmarkt%20Hamburg%20(14844005).jpeg?width=1200",
-    "imageCredit": "Aperçu d’Altona · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gro%C3%9Fe%20Elbstra%C3%9Fe%20(Hamburg-Altona-Altstadt).2.phb.ajb.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Gro%C3%9Fe_Elbstra%C3%9Fe_(Hamburg-Altona-Altstadt).2.phb.ajb.jpg"
   },
   {
     "id": 10,
@@ -115,9 +124,10 @@ window.PLACES=[
     "detail": "Épicerie / produits locaux",
     "quarter": "Centre",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilehaus%20(Hamburg-Altstadt).Blick%20von%20Osten.2.29132.ajb.jpg?width=1200",
-    "imageCredit": "Aperçu du centre · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 11,
@@ -127,9 +137,10 @@ window.PLACES=[
     "detail": "Café",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 12,
@@ -139,9 +150,10 @@ window.PLACES=[
     "detail": "Gastronomie / marché",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 13,
@@ -151,9 +163,10 @@ window.PLACES=[
     "detail": "Boulangerie / snack",
     "quarter": "Harburg",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alte%20Harburger%20Elbbr%C3%BCcke%20(Hamburg-Harburg).jpg?width=1200",
-    "imageCredit": "Aperçu de Harburg · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 14,
@@ -163,9 +176,10 @@ window.PLACES=[
     "detail": "Courses / alimentation",
     "quarter": "Harburg",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alte%20Harburger%20Elbbr%C3%BCcke%20(Hamburg-Harburg).jpg?width=1200",
-    "imageCredit": "Aperçu de Harburg · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 15,
@@ -175,9 +189,10 @@ window.PLACES=[
     "detail": "Marché / gastronomie",
     "quarter": "Harburg",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alte%20Harburger%20Elbbr%C3%BCcke%20(Hamburg-Harburg).jpg?width=1200",
-    "imageCredit": "Aperçu de Harburg · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 16,
@@ -187,9 +202,10 @@ window.PLACES=[
     "detail": "Architecture / pont / photo",
     "quarter": "Harburg",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alte%20Harburger%20Elbbr%C3%BCcke%20(Hamburg-Harburg).jpg?width=1200",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alte%20Harburger%20Elbbr%C3%BCcke%20(Hamburg-Harburg).jpg?width=1400",
     "imageCredit": "Wikimedia Commons",
-    "imageKind": "photo"
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Alte_Harburger_Elbbr%C3%BCcke_(Hamburg-Harburg).jpg"
   },
   {
     "id": 17,
@@ -199,9 +215,10 @@ window.PLACES=[
     "detail": "Quartier / port / photo",
     "quarter": "Harburg",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alte%20Harburger%20Elbbr%C3%BCcke%20(Hamburg-Harburg).jpg?width=1200",
-    "imageCredit": "Aperçu de Harburg · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Harburger%20Binnenhafen%20(4).jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Harburger_Binnenhafen_(4).jpg"
   },
   {
     "id": 18,
@@ -211,9 +228,10 @@ window.PLACES=[
     "detail": "Parc / vue / photo",
     "quarter": "Altona & Fischmarkt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ParkFiction%20in%20Hamburg-Sankt%20Pauli.jpg?width=1200",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamburg%20-%20Park%20Fiction%20(7).jpg?width=1400",
     "imageCredit": "Wikimedia Commons",
-    "imageKind": "photo"
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Hamburg_-_Park_Fiction_(7).jpg"
   },
   {
     "id": 19,
@@ -223,9 +241,10 @@ window.PLACES=[
     "detail": "Architecture / pont / photo",
     "quarter": "Port & Köhlbrand",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%B6hlbrandbr%C3%BCcke%20(Hamburg).jpg?width=1200",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Koehlbrandbruecke.JPG?width=1400",
     "imageCredit": "Wikimedia Commons",
-    "imageKind": "photo"
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Koehlbrandbruecke.JPG"
   },
   {
     "id": 20,
@@ -235,9 +254,10 @@ window.PLACES=[
     "detail": "Architecture / photo",
     "quarter": "Barmbek & City Nord",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kampnagel%20(Hamburg).jpg?width=1200",
-    "imageCredit": "Aperçu du nord · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/City%20nord%20exNixdorf%20und%20%C3%9Cberseering.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:City_nord_exNixdorf_und_%C3%9Cberseering.jpg"
   },
   {
     "id": 21,
@@ -247,9 +267,10 @@ window.PLACES=[
     "detail": "Quartier / architecture / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HH%20Hammerbrook%20Fruchthof.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:HH_Hammerbrook_Fruchthof.jpg"
   },
   {
     "id": 22,
@@ -259,9 +280,10 @@ window.PLACES=[
     "detail": "Architecture / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ericusspitze%20Hamburg.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Ericusspitze_Hamburg.jpg"
   },
   {
     "id": 23,
@@ -271,9 +293,10 @@ window.PLACES=[
     "detail": "Architecture / station / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/U-Bahnhof%20HafenCity%20Universit%C3%A4t%20Bahnsteig%202.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:U-Bahnhof_HafenCity_Universit%C3%A4t_Bahnsteig_2.jpg"
   },
   {
     "id": 24,
@@ -283,9 +306,10 @@ window.PLACES=[
     "detail": "Architecture",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamburg%20-%20HafenCity%20Universit%C3%A4t%20Hamburg.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Hamburg_-_HafenCity_Universit%C3%A4t_Hamburg.jpg"
   },
   {
     "id": 25,
@@ -295,9 +319,10 @@ window.PLACES=[
     "detail": "Architecture / vue / culture",
     "quarter": "St. Pauli",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ParkFiction%20in%20Hamburg-Sankt%20Pauli.jpg?width=1200",
-    "imageCredit": "Aperçu de St. Pauli · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Bunker,%20Heiligeneistfeld%20Hamburg.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Bunker,_Heiligeneistfeld_Hamburg.jpg"
   },
   {
     "id": 26,
@@ -307,9 +332,10 @@ window.PLACES=[
     "detail": "Architecture / centre-ville",
     "quarter": "Centre",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilehaus%20(Hamburg-Altstadt).Blick%20von%20Osten.2.29132.ajb.jpg?width=1200",
-    "imageCredit": "Aperçu du centre · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alsterarkaden%20in%20Hamburg-Altstadt.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Alsterarkaden_in_Hamburg-Altstadt.jpg"
   },
   {
     "id": 27,
@@ -319,9 +345,10 @@ window.PLACES=[
     "detail": "Musée / attraction",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Miniatur%20Wunderland%20Hamburg.jpg?width=1200",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Miniatur%20Wunderland%20Hamburg.jpg?width=1400",
     "imageCredit": "Wikimedia Commons",
-    "imageKind": "photo"
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Miniatur_Wunderland_Hamburg.jpg"
   },
   {
     "id": 28,
@@ -331,9 +358,10 @@ window.PLACES=[
     "detail": "Café",
     "quarter": "Centre",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilehaus%20(Hamburg-Altstadt).Blick%20von%20Osten.2.29132.ajb.jpg?width=1200",
-    "imageCredit": "Aperçu du centre · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 29,
@@ -343,9 +371,10 @@ window.PLACES=[
     "detail": "Café",
     "quarter": "St. Pauli",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ParkFiction%20in%20Hamburg-Sankt%20Pauli.jpg?width=1200",
-    "imageCredit": "Aperçu de St. Pauli · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 30,
@@ -355,9 +384,10 @@ window.PLACES=[
     "detail": "Café",
     "quarter": "Centre",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilehaus%20(Hamburg-Altstadt).Blick%20von%20Osten.2.29132.ajb.jpg?width=1200",
-    "imageCredit": "Aperçu du centre · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 31,
@@ -367,9 +397,10 @@ window.PLACES=[
     "detail": "Café",
     "quarter": "Centre",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilehaus%20(Hamburg-Altstadt).Blick%20von%20Osten.2.29132.ajb.jpg?width=1200",
-    "imageCredit": "Aperçu du centre · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 32,
@@ -379,9 +410,10 @@ window.PLACES=[
     "detail": "Café",
     "quarter": "Centre",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilehaus%20(Hamburg-Altstadt).Blick%20von%20Osten.2.29132.ajb.jpg?width=1200",
-    "imageCredit": "Aperçu du centre · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 33,
@@ -391,9 +423,10 @@ window.PLACES=[
     "detail": "Marché / événement",
     "quarter": "Est du port",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%B6hlbrandbr%C3%BCcke%20(Hamburg).jpg?width=1200",
-    "imageCredit": "Aperçu du port · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 34,
@@ -403,9 +436,10 @@ window.PLACES=[
     "detail": "Industriel / insolite / photo",
     "quarter": "Barmbek & City Nord",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kampnagel%20(Hamburg).jpg?width=1200",
-    "imageCredit": "Aperçu du nord · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/TRUDE-Schneidrad%20vor%20dem%20Museum%20der%20Arbeit%20in%20Hamburg-Barmbek-Nord%201.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:TRUDE-Schneidrad_vor_dem_Museum_der_Arbeit_in_Hamburg-Barmbek-Nord_1.jpg"
   },
   {
     "id": 35,
@@ -415,9 +449,10 @@ window.PLACES=[
     "detail": "Marché aux puces",
     "quarter": "Barmbek & City Nord",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Kampnagel%20(Hamburg).jpg?width=1200",
-    "imageCredit": "Aperçu du nord · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Museum%20der%20Arbeit%20-%20Alte%20Fabrik.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Museum_der_Arbeit_-_Alte_Fabrik.jpg"
   },
   {
     "id": 36,
@@ -427,9 +462,10 @@ window.PLACES=[
     "detail": "Marché aux puces",
     "quarter": "Schanze & Eimsbüttel",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ParkFiction%20in%20Hamburg-Sankt%20Pauli.jpg?width=1200",
-    "imageCredit": "Aperçu du secteur · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 37,
@@ -439,9 +475,10 @@ window.PLACES=[
     "detail": "Quartier / nightlife / photo",
     "quarter": "St. Pauli",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ParkFiction%20in%20Hamburg-Sankt%20Pauli.jpg?width=1200",
-    "imageCredit": "Aperçu de St. Pauli · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Reeperbahn,%20Hamburg%20(45387269632).jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Reeperbahn,_Hamburg_(45387269632).jpg"
   },
   {
     "id": 38,
@@ -451,9 +488,10 @@ window.PLACES=[
     "detail": "Espace urbain / événement",
     "quarter": "St. Pauli",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ParkFiction%20in%20Hamburg-Sankt%20Pauli.jpg?width=1200",
-    "imageCredit": "Aperçu de St. Pauli · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Heiligengeistfeld%20Hamburg.220205.nnw.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Heiligengeistfeld_Hamburg.220205.nnw.jpg"
   },
   {
     "id": 39,
@@ -463,9 +501,10 @@ window.PLACES=[
     "detail": "Repère / salon",
     "quarter": "Centre",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilehaus%20(Hamburg-Altstadt).Blick%20von%20Osten.2.29132.ajb.jpg?width=1200",
-    "imageCredit": "Aperçu du centre · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 40,
@@ -475,9 +514,10 @@ window.PLACES=[
     "detail": "Brasserie / gastronomie",
     "quarter": "Schanze & Eimsbüttel",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ParkFiction%20in%20Hamburg-Sankt%20Pauli.jpg?width=1200",
-    "imageCredit": "Aperçu du secteur · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Ratsherrn%20Brauerei.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Ratsherrn_Brauerei.jpg"
   },
   {
     "id": 41,
@@ -487,9 +527,10 @@ window.PLACES=[
     "detail": "Marché / gastronomie",
     "quarter": "Altona & Fischmarkt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fischmarkt%20Hamburg%20(14844005).jpeg?width=1200",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamburg-Altona-Altstadt%20Fischmarkt.jpg?width=1400",
     "imageCredit": "Wikimedia Commons",
-    "imageKind": "photo"
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Hamburg-Altona-Altstadt_Fischmarkt.jpg"
   },
   {
     "id": 42,
@@ -499,9 +540,10 @@ window.PLACES=[
     "detail": "Architecture / port / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 43,
@@ -511,9 +553,10 @@ window.PLACES=[
     "detail": "Architecture / quartier / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Westfield%20Hamburg%20%C3%9Cberseequartier.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Westfield_Hamburg_%C3%9Cberseequartier.jpg"
   },
   {
     "id": 44,
@@ -523,9 +566,10 @@ window.PLACES=[
     "detail": "Architecture / rive / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Musical%20Boulevard%20Hamburg.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Musical_Boulevard_Hamburg.jpg"
   },
   {
     "id": 45,
@@ -535,9 +579,10 @@ window.PLACES=[
     "detail": "Architecture / infrastructure / photo",
     "quarter": "St. Pauli",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alter%20Elbtunnel%202017%204.jpg?width=1200",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alter%20Elbtunel,%20Hamburg%20(15332211601).jpg?width=1400",
     "imageCredit": "Wikimedia Commons",
-    "imageKind": "photo"
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Alter_Elbtunel,_Hamburg_(15332211601).jpg"
   },
   {
     "id": 46,
@@ -547,9 +592,10 @@ window.PLACES=[
     "detail": "Bar / restaurant",
     "quarter": "St. Pauli",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/ParkFiction%20in%20Hamburg-Sankt%20Pauli.jpg?width=1200",
-    "imageCredit": "Aperçu de St. Pauli · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 47,
@@ -559,9 +605,10 @@ window.PLACES=[
     "detail": "Gare / architecture / photo",
     "quarter": "Centre",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamburg%20Hbf%20Wandelhalle.jpg?width=1200",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamburg%20Hauptbahnhof%20hall.jpg?width=1400",
     "imageCredit": "Wikimedia Commons",
-    "imageKind": "photo"
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Hamburg_Hauptbahnhof_hall.jpg"
   },
   {
     "id": 48,
@@ -571,9 +618,10 @@ window.PLACES=[
     "detail": "Vue / port / photo",
     "quarter": "Est du port",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%B6hlbrandbr%C3%BCcke%20(Hamburg).jpg?width=1200",
-    "imageCredit": "Aperçu du port · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 49,
@@ -583,9 +631,10 @@ window.PLACES=[
     "detail": "Architecture / station / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elbbr%C3%BCcke%20U%20Bahn%20Bahnhof%20Hamburg%20B097.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Elbbr%C3%BCcke_U_Bahn_Bahnhof_Hamburg_B097.jpg"
   },
   {
     "id": 50,
@@ -595,9 +644,10 @@ window.PLACES=[
     "detail": "Architecture / station / photo",
     "quarter": "Est du port",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/K%C3%B6hlbrandbr%C3%BCcke%20(Hamburg).jpg?width=1200",
-    "imageCredit": "Aperçu du port · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elbbr%C3%BCcke%20U%20Bahn%20Bahnhof%20Hamburg%20B097.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Elbbr%C3%BCcke_U_Bahn_Bahnhof_Hamburg_B097.jpg"
   },
   {
     "id": 51,
@@ -607,9 +657,10 @@ window.PLACES=[
     "detail": "Architecture / art / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Lighthouse%20Zero,%20Hamburg.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Lighthouse_Zero,_Hamburg.jpg"
   },
   {
     "id": 52,
@@ -619,9 +670,10 @@ window.PLACES=[
     "detail": "Quartier / architecture / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Baakenhafen%20im%20Hamburger%20Hafen.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Baakenhafen_im_Hamburger_Hafen.jpg"
   },
   {
     "id": 53,
@@ -631,9 +683,10 @@ window.PLACES=[
     "detail": "Quartier / architecture / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Speicherstadt%20(Hamburg-HafenCity).1.hf.phb.ajb.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Speicherstadt_(Hamburg-HafenCity).1.hf.phb.ajb.jpg"
   },
   {
     "id": 54,
@@ -643,9 +696,10 @@ window.PLACES=[
     "detail": "Architecture / photo",
     "quarter": "Centre",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilehaus%20(Hamburg-Altstadt).Blick%20von%20Osten.2.29132.ajb.jpg?width=1200",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilehaus%20(Hamburg-Altstadt).Blick%20von%20Osten.2.29132.ajb.jpg?width=1400",
     "imageCredit": "Wikimedia Commons",
-    "imageKind": "photo"
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Chilehaus_(Hamburg-Altstadt).Blick_von_Osten.2.29132.ajb.jpg"
   },
   {
     "id": 55,
@@ -655,9 +709,10 @@ window.PLACES=[
     "detail": "Restaurant / architecture",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fleetschl%C3%B6sschen.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Fleetschl%C3%B6sschen.jpg"
   },
   {
     "id": 56,
@@ -667,9 +722,10 @@ window.PLACES=[
     "detail": "Architecture / pont / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Oberhafenbr%C3%BCcke%20(Hamburg-HafenCity).ajb.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Oberhafenbr%C3%BCcke_(Hamburg-HafenCity).ajb.jpg"
   },
   {
     "id": 57,
@@ -679,9 +735,10 @@ window.PLACES=[
     "detail": "Gastronomie / architecture",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 58,
@@ -691,9 +748,10 @@ window.PLACES=[
     "detail": "Architecture / photo",
     "quarter": "Centre",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilehaus%20(Hamburg-Altstadt).Blick%20von%20Osten.2.29132.ajb.jpg?width=1200",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilehaus%20(Hamburg-Altstadt).Blick%20von%20Osten.2.29132.ajb.jpg?width=1400",
     "imageCredit": "Wikimedia Commons",
-    "imageKind": "photo"
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Chilehaus_(Hamburg-Altstadt).Blick_von_Osten.2.29132.ajb.jpg"
   },
   {
     "id": 59,
@@ -703,9 +761,10 @@ window.PLACES=[
     "detail": "Quartier / architecture / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Speicherstadt%20(Hamburg-HafenCity).1.hf.phb.ajb.jpg?width=1400",
     "imageCredit": "Wikimedia Commons",
-    "imageKind": "photo"
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Speicherstadt_(Hamburg-HafenCity).1.hf.phb.ajb.jpg"
   },
   {
     "id": 60,
@@ -715,9 +774,10 @@ window.PLACES=[
     "detail": "Architecture / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamburg-Unilever-Haus.jpg?width=1200",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamburg%20-%20Unilever%20Deutschland%20GmbH%20%26%20Marco%20Polo%20Tower.jpg?width=1400",
     "imageCredit": "Wikimedia Commons",
-    "imageKind": "photo"
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Hamburg_-_Unilever_Deutschland_GmbH_%26_Marco_Polo_Tower.jpg"
   },
   {
     "id": 61,
@@ -727,9 +787,10 @@ window.PLACES=[
     "detail": "Architecture / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/HamburgSpeicherstadt.jpg?width=1200",
-    "imageCredit": "Aperçu du quartier · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Hamburg%20-%20Marco%20Polo%20Tower.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Hamburg_-_Marco_Polo_Tower.jpg"
   },
   {
     "id": 62,
@@ -739,9 +800,10 @@ window.PLACES=[
     "detail": "Architecture / photo",
     "quarter": "Altona & Fischmarkt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fischmarkt%20Hamburg%20(14844005).jpeg?width=1200",
-    "imageCredit": "Aperçu d’Altona · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Dockland,%20Hamburg.jpg?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Dockland,_Hamburg.jpg"
   },
   {
     "id": 63,
@@ -751,9 +813,10 @@ window.PLACES=[
     "detail": "Architecture / culture / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elbphilharmonie,%20Hamburg.jpg?width=1200",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Elbphilharmonie,%20Hamburg.jpg?width=1400",
     "imageCredit": "Wikimedia Commons",
-    "imageKind": "photo"
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Elbphilharmonie,_Hamburg.jpg"
   },
   {
     "id": 64,
@@ -763,20 +826,22 @@ window.PLACES=[
     "detail": "Photographie / musée",
     "quarter": "Centre",
     "note": "",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Chilehaus%20(Hamburg-Altstadt).Blick%20von%20Osten.2.29132.ajb.jpg?width=1200",
-    "imageCredit": "Aperçu du centre · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   },
   {
     "id": 65,
-    "name": "Lüneburger Str. 30",
-    "address": "Lüneburger Str. 30, Hamburg, Germany",
-    "category": "Ambiances & quartiers",
-    "detail": "Repère / Harburg",
+    "name": "Hébergement — Lüneburger Str. 30",
+    "address": "Lüneburger Str. 30, 21073 Hamburg, Germany",
+    "category": "Hébergement",
+    "detail": "Mon hébergement",
     "quarter": "Harburg",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import.",
-    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Alte%20Harburger%20Elbbr%C3%BCcke%20(Hamburg-Harburg).jpg?width=1200",
-    "imageCredit": "Aperçu de Harburg · Wikimedia Commons",
-    "imageKind": "area"
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   }
 ];

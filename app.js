@@ -3,6 +3,7 @@ const places=window.PLACES||[];
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 
 const cats=[
+ ["Hébergement","🏠","hotel"],
  ["Architecture & photo","📷","photo"],
  ["Ambiances & quartiers","◉","amb"],
  ["Manger & boire","🍴","food"],
@@ -22,14 +23,16 @@ function info(p){return catInfo[p.category]||{icon:"•",key:"amb"}}
 
 function showPlace(p){
  const i=info(p);
- const areaLabel=p.imageKind==="area" ? `<span class="image-label">Aperçu du quartier</span>` : "";
- $("#sheetContent").innerHTML=`<div class="place-image-wrap"><img class="place-image" src="${p.image}" alt="${esc(p.name)}" loading="eager">${areaLabel}</div>
+ const media=p.image
+   ? `<div class="place-image-wrap"><img class="place-image" src="${p.image}" alt="${esc(p.name)}"></div>`
+   : `<div class="place-hero-placeholder" aria-label="Pas de photo disponible">${i.icon}</div>`;
+ $("#sheetContent").innerHTML=`${media}
  <h2>${esc(p.name)}</h2>
  <div class="place-line"><strong>${esc(p.category)}</strong><br>${esc(p.quarter)}<br>${esc(p.address)}</div>
  <div class="place-badges"><span class="badge">${esc(p.detail)}</span></div>
- <div class="image-credit">${esc(p.imageCredit||"")}</div>
+ ${p.imageCredit?`<div class="image-credit">${p.imageSource?`<a href="${p.imageSource}" target="_blank" rel="noopener">${esc(p.imageCredit)}</a>`:esc(p.imageCredit)}</div>`:""}
  <div class="actions"><a href="${googleUrl(p)}" target="_blank" rel="noopener">Ouvrir dans Google Maps</a><a class="secondary" href="${appleUrl(p)}" target="_blank" rel="noopener">Ouvrir dans Plans</a></div>`;
- $(".sheet-card").classList.add("has-image");
+ $(".sheet-card").classList.toggle("has-image",!!p.image);
  $("#sheet").classList.remove("hidden");
 }
 $("#closeSheet").onclick=()=>{$("#sheet").classList.add("hidden");$(".sheet-card").classList.remove("has-image")};
@@ -89,7 +92,7 @@ function renderCategoryList(){
    const arr=places.filter(p=>p.category===cat&&(!q||[p.name,p.address,p.quarter,p.detail].join(" ").toLowerCase().includes(q)));
    if(!arr.length)return "";
    return `<section class="group"><div class="group-header"><div class="group-title"><span class="big-icon">${icon}</span><h3>${cat}</h3></div><span class="count">${arr.length}</span></div>
-   <div class="grid">${arr.map(p=>`<article class="place" data-id="${p.id}"><img class="place-thumb" src="${p.image}" alt="" loading="lazy"><div class="place-copy"><div class="place-name">${esc(p.name)}</div><div class="place-sub">${esc(p.quarter)}</div><div class="place-badges"><span class="badge">${esc(p.detail)}</span></div></div></article>`).join("")}</div></section>`;
+   <div class="grid">${arr.map(p=>`<article class="place" data-id="${p.id}">${p.image?`<img class="place-thumb" src="${p.image}" alt="" loading="lazy">`:`<div class="place-placeholder">${info(p).icon}</div>`}<div class="place-copy"><div class="place-name">${esc(p.name)}</div><div class="place-sub">${esc(p.quarter)}</div><div class="place-badges"><span class="badge">${esc(p.detail)}</span></div></div></article>`).join("")}</div></section>`;
   }).join("");
   root.querySelectorAll(".place").forEach(el=>el.onclick=()=>showPlace(places.find(p=>p.id==el.dataset.id)));
  };
@@ -104,7 +107,7 @@ function renderQuarterList(){
     const arr=places.filter(p=>p.quarter===qu&&(!q||[p.name,p.address,p.category,p.detail,qu].join(" ").toLowerCase().includes(q)));
     if(!arr.length)return "";
     return `<section class="quarter-card"><div class="qtop"><div><h3>⌂ ${esc(qu)}</h3><p>${arr.length} lieu${arr.length>1?"x":""}</p></div><button data-quarter="${esc(qu)}">Voir sur la carte</button></div>
-    <div class="quarter-places">${arr.map(p=>`<article class="place" data-id="${p.id}"><img class="place-thumb" src="${p.image}" alt="" loading="lazy"><div class="place-copy"><div class="place-name">${info(p).icon} ${esc(p.name)}</div><div class="place-sub">${esc(p.category)}</div></div></article>`).join("")}</div></section>`;
+    <div class="quarter-places">${arr.map(p=>`<article class="place" data-id="${p.id}">${p.image?`<img class="place-thumb" src="${p.image}" alt="" loading="lazy">`:`<div class="place-placeholder">${info(p).icon}</div>`}<div class="place-copy"><div class="place-name">${esc(p.name)}</div><div class="place-sub">${esc(p.category)}</div></div></article>`).join("")}</div></section>`;
   }).join("");
   root.querySelectorAll(".place").forEach(el=>el.onclick=()=>showPlace(places.find(p=>p.id==el.dataset.id)));
   root.querySelectorAll("[data-quarter]").forEach(b=>b.onclick=()=>{
