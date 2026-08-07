@@ -11,45 +11,63 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <div class="eyebrow">CARNET PHOTO</div>
-  <h1>Hambourg</h1>
-  <p>65 lieux enregistrés</p>
+<header class="topbar">
+  <div>
+    <div class="eyebrow">CARNET PHOTO</div>
+    <h1>Hambourg</h1>
+    <div class="subtitle">65 lieux enregistrés</div>
+  </div>
+  <button id="mapHome" class="round-btn" title="Recentrer">⌖</button>
 </header>
 
-<nav class="tabs">
-  <button class="active" data-tab="map">Carte</button>
-  <button data-tab="categories">Catégories</button>
-  <button data-tab="quarters">Quartiers</button>
+<nav class="main-tabs">
+  <button class="active" data-tab="map"><span>🗺</span> Carte</button>
+  <button data-tab="categories"><span>◫</span> Catégories</button>
+  <button data-tab="quarters"><span>⌂</span> Quartiers</button>
 </nav>
 
 <main>
 <section id="tab-map" class="tab active">
-  <div class="map-toolbar">
-    <div class="segmented">
-      <button class="active" data-mapmode="category">Catégories</button>
-      <button data-mapmode="quarter">Quartiers</button>
+  <div class="map-controls">
+    <label class="searchbox">
+      <span>⌕</span>
+      <input id="mapSearch" type="search" placeholder="Rechercher un lieu…">
+    </label>
+    <div class="mode-row" id="quickModes">
+      <button class="mode active" data-mode=""><span>◎</span><b>Tout</b></button>
+      <button class="mode" data-mode="photo"><span>📷</span><b>Photo</b></button>
+      <button class="mode" data-mode="food"><span>🍴</span><b>Gourmand</b></button>
+      <button class="mode" data-mode="culture"><span>🏛</span><b>Culture</b></button>
+      <button class="mode" data-mode="markets"><span>🛍</span><b>Marchés</b></button>
     </div>
-    <div id="mapFilters" class="chips"></div>
+    <div id="categoryChips" class="chips"></div>
   </div>
   <div id="map"></div>
-  <div id="mapStatus" class="map-status">Positionnement des lieux…</div>
+  <div id="mapStatus" class="status-pill">Préparation de la carte…</div>
 </section>
 
-<section id="tab-categories" class="tab list-tab">
-  <div class="search-wrap"><input id="categorySearch" type="search" placeholder="Rechercher un lieu…"></div>
+<section id="tab-categories" class="tab content-tab">
+  <div class="section-intro">
+    <h2>Explorer par catégorie</h2>
+    <p>Les mêmes 65 lieux, regroupés par type.</p>
+  </div>
+  <label class="searchbox list-search"><span>⌕</span><input id="categorySearch" type="search" placeholder="Rechercher…"></label>
   <div id="categoryGroups"></div>
 </section>
 
-<section id="tab-quarters" class="tab list-tab">
-  <div class="search-wrap"><input id="quarterSearch" type="search" placeholder="Rechercher un lieu ou un quartier…"></div>
+<section id="tab-quarters" class="tab content-tab">
+  <div class="section-intro">
+    <h2>Explorer par quartier</h2>
+    <p>Choisis un secteur pour retrouver les lieux qui vont ensemble.</p>
+  </div>
+  <label class="searchbox list-search"><span>⌕</span><input id="quarterSearch" type="search" placeholder="Rechercher…"></label>
   <div id="quarterGroups"></div>
 </section>
 </main>
 
 <div id="sheet" class="sheet hidden">
-  <div class="sheet-panel">
-    <button id="closeSheet" class="close">×</button>
+  <div class="sheet-card">
+    <button id="closeSheet" class="close-btn">×</button>
     <div id="sheetContent"></div>
   </div>
 </div>

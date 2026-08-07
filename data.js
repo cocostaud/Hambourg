@@ -3,7 +3,7 @@ window.PLACES=[
     "id": 1,
     "name": "Hamburg-Hammerbrook",
     "address": "Hamburg-Hammerbrook, Hamburg, Germany",
-    "category": "Quartiers & ambiances",
+    "category": "Ambiances & quartiers",
     "detail": "Quartier / photo urbaine",
     "quarter": "Hammerbrook",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import."
@@ -48,7 +48,7 @@ window.PLACES=[
     "id": 6,
     "name": "Isemarkt",
     "address": "Isestraße 1-73, 20144 Eimsbüttel, Germany",
-    "category": "Marchés & brocantes",
+    "category": "Marchés",
     "detail": "Marché / gastronomie",
     "quarter": "Schanze & Eimsbüttel",
     "note": ""
@@ -75,7 +75,7 @@ window.PLACES=[
     "id": 9,
     "name": "Große Elbstraße",
     "address": "Große Elbstraße, Hamburg, Germany",
-    "category": "Quartiers & ambiances",
+    "category": "Ambiances & quartiers",
     "detail": "Quartier / port / photo",
     "quarter": "Altona & Fischmarkt",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import."
@@ -129,7 +129,7 @@ window.PLACES=[
     "id": 15,
     "name": "Wochenmarkt Harburg",
     "address": "Sand 37, 21073 Harburg, Germany",
-    "category": "Marchés & brocantes",
+    "category": "Marchés",
     "detail": "Marché / gastronomie",
     "quarter": "Harburg",
     "note": ""
@@ -147,7 +147,7 @@ window.PLACES=[
     "id": 17,
     "name": "Binnenhafen",
     "address": "Harburger Schloßstraße 9, 21079 Harburg, Germany",
-    "category": "Quartiers & ambiances",
+    "category": "Ambiances & quartiers",
     "detail": "Quartier / port / photo",
     "quarter": "Harburg",
     "note": ""
@@ -156,7 +156,7 @@ window.PLACES=[
     "id": 18,
     "name": "Park Fiction",
     "address": "Schauermanns Park, Pinnasberg 27, 20359 Altona, Germany",
-    "category": "Quartiers & ambiances",
+    "category": "Ambiances & quartiers",
     "detail": "Parc / vue / photo",
     "quarter": "Altona & Fischmarkt",
     "note": ""
@@ -183,7 +183,7 @@ window.PLACES=[
     "id": 21,
     "name": "Oberhafen",
     "address": "Oberhafen, Hamburg, Germany",
-    "category": "Quartiers & ambiances",
+    "category": "Ambiances & quartiers",
     "detail": "Quartier / architecture / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import."
@@ -309,7 +309,7 @@ window.PLACES=[
     "id": 35,
     "name": "Kulturflohmarkt Museum der Arbeit",
     "address": "Wiesendamm 3, 22305 Hamburg-Nord, Germany",
-    "category": "Marchés & brocantes",
+    "category": "Marchés",
     "detail": "Marché aux puces",
     "quarter": "Barmbek & City Nord",
     "note": ""
@@ -318,7 +318,7 @@ window.PLACES=[
     "id": 36,
     "name": "Flohmarkt Flohschanze",
     "address": "Neuer Kamp 30, 20357 Altona, Germany",
-    "category": "Marchés & brocantes",
+    "category": "Marchés",
     "detail": "Marché aux puces",
     "quarter": "Schanze & Eimsbüttel",
     "note": ""
@@ -327,7 +327,7 @@ window.PLACES=[
     "id": 37,
     "name": "Reeperbahn",
     "address": "Reeperbahn, Hamburg, Germany",
-    "category": "Quartiers & ambiances",
+    "category": "Ambiances & quartiers",
     "detail": "Quartier / nightlife / photo",
     "quarter": "St. Pauli",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import."
@@ -336,7 +336,7 @@ window.PLACES=[
     "id": 38,
     "name": "Heiligengeistfeld",
     "address": "Heiligengeistfeld 1, 20359 Hamburg, Germany",
-    "category": "Quartiers & ambiances",
+    "category": "Ambiances & quartiers",
     "detail": "Espace urbain / événement",
     "quarter": "St. Pauli",
     "note": ""
@@ -345,7 +345,7 @@ window.PLACES=[
     "id": 39,
     "name": "Messe-Eingang Süd",
     "address": "20355 Hamburg, Germany",
-    "category": "Quartiers & ambiances",
+    "category": "Ambiances & quartiers",
     "detail": "Repère / salon",
     "quarter": "Centre",
     "note": ""
@@ -363,7 +363,7 @@ window.PLACES=[
     "id": 41,
     "name": "Fischmarkt Hamburg Altona",
     "address": "Fischmarkt 2, 22767 Altona, Germany",
-    "category": "Marchés & brocantes",
+    "category": "Marchés",
     "detail": "Marché / gastronomie",
     "quarter": "Altona & Fischmarkt",
     "note": ""
@@ -381,7 +381,7 @@ window.PLACES=[
     "id": 43,
     "name": "Überseequartier",
     "address": "20457 Hamburg, Germany",
-    "category": "Quartiers & ambiances",
+    "category": "Ambiances & quartiers",
     "detail": "Architecture / quartier / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": ""
@@ -426,7 +426,7 @@ window.PLACES=[
     "id": 48,
     "name": "Landzunge",
     "address": "Reginenstraße 13, 20539 Hamburg, Germany",
-    "category": "Quartiers & ambiances",
+    "category": "Ambiances & quartiers",
     "detail": "Vue / port / photo",
     "quarter": "Est du port",
     "note": ""
@@ -462,7 +462,7 @@ window.PLACES=[
     "id": 52,
     "name": "Baakenhafen",
     "address": "20457 Hamburg, Germany",
-    "category": "Quartiers & ambiances",
+    "category": "Ambiances & quartiers",
     "detail": "Quartier / architecture / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": ""
@@ -471,7 +471,7 @@ window.PLACES=[
     "id": 53,
     "name": "HafenCity",
     "address": "HafenCity, Hamburg, Germany",
-    "category": "Quartiers & ambiances",
+    "category": "Ambiances & quartiers",
     "detail": "Quartier / architecture / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import."
@@ -525,7 +525,7 @@ window.PLACES=[
     "id": 59,
     "name": "Speicherstadt",
     "address": "Speicherstadt, Hamburg, Germany",
-    "category": "Quartiers & ambiances",
+    "category": "Ambiances & quartiers",
     "detail": "Quartier / architecture / photo",
     "quarter": "HafenCity & Speicherstadt",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import."
@@ -579,7 +579,7 @@ window.PLACES=[
     "id": 65,
     "name": "Lüneburger Str. 30",
     "address": "Lüneburger Str. 30, Hamburg, Germany",
-    "category": "Quartiers & ambiances",
+    "category": "Ambiances & quartiers",
     "detail": "Repère / Harburg",
     "quarter": "Harburg",
     "note": "Adresse reconstruite à partir du nom du lieu; vérifier le point après import."
