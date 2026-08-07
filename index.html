@@ -1,59 +1,61 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#111111">
-  <title>Hambourg — carnet photo</title>
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="apple-touch-icon" href="icon-180.png">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#111111">
+<title>Hambourg — carnet photo</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <div>
-      <div class="eyebrow">CARNET PHOTO</div>
-      <h1>Hambourg</h1>
-      <div id="summary">65 lieux · 25–30 septembre 2026</div>
+<header>
+  <div class="eyebrow">CARNET PHOTO</div>
+  <h1>Hambourg</h1>
+  <p>65 lieux enregistrés</p>
+</header>
+
+<nav class="tabs">
+  <button class="active" data-tab="map">Carte</button>
+  <button data-tab="categories">Catégories</button>
+  <button data-tab="quarters">Quartiers</button>
+</nav>
+
+<main>
+<section id="tab-map" class="tab active">
+  <div class="map-toolbar">
+    <div class="segmented">
+      <button class="active" data-mapmode="category">Catégories</button>
+      <button data-mapmode="quarter">Quartiers</button>
     </div>
-    <button id="installBtn" class="ghost hidden">Installer</button>
-  </header>
-
-  <nav class="tabs">
-    <button data-tab="map" class="active">Carte</button>
-    <button data-tab="places">Lieux</button>
-    <button data-tab="days">Jours</button>
-  </nav>
-
-  <main>
-    <section id="tab-map" class="tab active">
-      <div id="map"></div>
-      <div class="map-note" id="mapNote">
-        La carte positionne les adresses automatiquement. Les positions sont ensuite mémorisées sur l'appareil.
-      </div>
-    </section>
-
-    <section id="tab-places" class="tab">
-      <div class="controls">
-        <input id="search" type="search" placeholder="Rechercher un lieu, une adresse…">
-        <select id="category"><option value="">Toutes les catégories</option></select>
-      </div>
-      <div id="placesList" class="cards"></div>
-    </section>
-
-    <section id="tab-days" class="tab">
-      <div id="daysList"></div>
-    </section>
-  </main>
-
-  <div id="sheet" class="sheet hidden">
-    <button class="sheet-close" aria-label="Fermer">×</button>
-    <div class="sheet-body"></div>
+    <div id="mapFilters" class="chips"></div>
   </div>
+  <div id="map"></div>
+  <div id="mapStatus" class="map-status">Positionnement des lieux…</div>
+</section>
 
-  <script src="data.js"></script>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="app.js"></script>
+<section id="tab-categories" class="tab list-tab">
+  <div class="search-wrap"><input id="categorySearch" type="search" placeholder="Rechercher un lieu…"></div>
+  <div id="categoryGroups"></div>
+</section>
+
+<section id="tab-quarters" class="tab list-tab">
+  <div class="search-wrap"><input id="quarterSearch" type="search" placeholder="Rechercher un lieu ou un quartier…"></div>
+  <div id="quarterGroups"></div>
+</section>
+</main>
+
+<div id="sheet" class="sheet hidden">
+  <div class="sheet-panel">
+    <button id="closeSheet" class="close">×</button>
+    <div id="sheetContent"></div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
 </body>
 </html>
