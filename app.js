@@ -40,11 +40,32 @@ $("#closeSheet").onclick=()=>{$("#sheet").classList.add("hidden");$(".sheet-card
 $("#sheet").addEventListener("click",e=>{if(e.target.id==="sheet"){$("#sheet").classList.add("hidden");$(".sheet-card").classList.remove("has-image")}});
 
 $$(".main-tabs button").forEach(b=>b.onclick=()=>{
+ document.body.classList.toggle("home-mode",b.dataset.tab==="home");
  $$(".main-tabs button").forEach(x=>x.classList.toggle("active",x===b));
  $$(".tab").forEach(x=>x.classList.remove("active"));
  $("#tab-"+b.dataset.tab).classList.add("active");
  if(b.dataset.tab==="map"&&map)setTimeout(()=>map.invalidateSize(),100);
 });
+
+function setTab(tab){
+ const button=$(`.main-tabs button[data-tab="${tab}"]`);
+ if(button)button.click();
+ window.scrollTo({top:0,behavior:"smooth"});
+}
+
+function featuredCard(p){
+ const i=info(p);
+ return `<article class="featured-card" data-id="${p.id}">${p.image?`<img src="${p.image}" alt="${esc(p.name)}" loading="lazy">`:`<div class="featured-placeholder">${i.icon}</div>`}<div><small>${esc(p.category)}</small><h3>${esc(p.name)}</h3><p>${esc(p.quarter)}</p></div></article>`;
+}
+
+function renderHome(){
+ const ids=[63,59,5];
+ const selected=ids.map(id=>places.find(p=>p.id===id)).filter(Boolean);
+ $("#featuredPlaces").innerHTML=selected.map(featuredCard).join("");
+ $("#featuredPlaces").querySelectorAll("[data-id]").forEach(el=>el.onclick=()=>showPlace(places.find(p=>p.id==el.dataset.id)));
+ $$("[data-home-tab]").forEach(b=>b.onclick=()=>setTab(b.dataset.homeTab));
+ $$("[data-place-id]").forEach(b=>b.onclick=()=>showPlace(places.find(p=>p.id==b.dataset.placeId)));
+}
 
 function quickMatch(p){
  if(!quickMode)return true;
@@ -157,3 +178,8 @@ async function geocodeAll(){
  if(fail===0)setTimeout(()=>$("#mapStatus").classList.add("hidden"),1800);
 }
 renderCategoryList();renderQuarterList();initMap();
+renderHome();
+let deferredPrompt;
+window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferredPrompt=e;$("#installBtn").hidden=false});
+$("#installBtn").onclick=async()=>{if(!deferredPrompt)return;deferredPrompt.prompt();await deferredPrompt.userChoice;deferredPrompt=null;$("#installBtn").hidden=true};
+if("serviceWorker" in navigator)navigator.serviceWorker.register("./sw.js").then(r=>r.update()).catch(()=>{});

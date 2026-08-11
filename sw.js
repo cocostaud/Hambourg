@@ -1,4 +1,4 @@
-const CACHE="hambourg-v5-20260811";
+const CACHE="hambourg-v5-accueil-2-20260811";
 const ASSETS=["./","./index.html","./style.css","./app.js","./data.js","./manifest.webmanifest","./icon-180.png","./icon-512.png"];
 
 self.addEventListener("install",event=>{

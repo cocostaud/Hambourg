@@ -4,30 +4,51 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#111111">
-<title>Hambourg — carnet photo</title>
+<title>Carnet photo · Hambourg — V5</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="icon-180.png">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="home-mode">
 <header class="topbar">
   <div>
-    <div class="eyebrow">CARNET PHOTO</div>
+    <div class="eyebrow">CARNET PHOTO <span class="version-badge">V5</span></div>
     <h1>Hambourg</h1>
     <div class="subtitle">67 lieux enregistrés</div>
   </div>
-  <button id="mapHome" class="round-btn" title="Recentrer">⌖</button>
+  <button id="installBtn" class="install-btn" hidden>Installer</button>
 </header>
 
 <nav class="main-tabs">
-  <button class="active" data-tab="map"><span>🗺</span> Carte</button>
+  <button class="active" data-tab="home"><span>⌂</span> Accueil</button>
+  <button data-tab="map"><span>🗺</span> Carte</button>
   <button data-tab="categories"><span>◫</span> Catégories</button>
   <button data-tab="quarters"><span>⌂</span> Quartiers</button>
 </nav>
 
 <main>
-<section id="tab-map" class="tab active">
+<section id="tab-home" class="tab active home-tab">
+  <div class="home-hero">
+    <div class="harbour-scene" role="img" aria-label="Silhouette du port de Hambourg au coucher du soleil">
+      <div class="sun"></div><div class="water"></div><div class="warehouse w1"></div><div class="warehouse w2"></div>
+      <div class="elbphi"><i></i><b></b></div><div class="crane c1"></div><div class="crane c2"></div>
+    </div>
+    <div class="hero-shade"></div>
+    <div class="hero-top"><span>CARNET PHOTO</span><b>V5</b></div>
+    <div class="hero-copy"><div class="hero-kicker">Port · architecture · bonnes adresses</div><h2>Hambourg</h2><p>67 lieux · 11 quartiers · votre carnet personnel</p><button data-home-tab="map">Explorer Hambourg <span>→</span></button></div>
+  </div>
+  <div class="home-content">
+    <button class="stay-card" data-place-id="65"><span class="stay-icon">🏠</span><span><strong>Votre repère à Harburg</strong><small>Lüneburger Straße 30 · Hébergement</small></span><em>→</em></button>
+    <div class="home-shortcuts">
+      <button data-home-tab="map"><span>⌖</span>Carte</button><button data-home-tab="categories"><span>◫</span>Catégories</button><button data-home-tab="quarters"><span>◎</span>Quartiers</button>
+    </div>
+    <div class="featured-head"><h2>À découvrir</h2><button data-home-tab="categories">Voir les 67 lieux →</button></div>
+    <div id="featuredPlaces" class="featured-grid"></div>
+  </div>
+</section>
+
+<section id="tab-map" class="tab">
   <div class="map-controls">
     <label class="searchbox">
       <span>⌕</span>
@@ -43,6 +64,7 @@
     <div id="categoryChips" class="chips"></div>
   </div>
   <div id="map"></div>
+  <button id="mapHome" class="map-home-btn" title="Recentrer la carte">⌖ Recentrer</button>
   <div id="mapStatus" class="status-pill">Préparation de la carte…</div>
 </section>
 
