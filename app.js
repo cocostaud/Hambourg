@@ -10,7 +10,8 @@ const cats=[
  ["Cafés","☕","cafe"],
  ["Culture & musées","🏛","culture"],
  ["Marchés","🛍","market"],
- ["Auto & insolite","🚗","auto"]
+ ["Auto & insolite","🚗","auto"],
+ ["Adresses pratiques","🧺","practical"]
 ];
 const quarters=["Centre","HafenCity & Speicherstadt","St. Pauli","Altona & Fischmarkt","Schanze & Eimsbüttel","Barmbek & City Nord","Hammerbrook","Est du port","Port & Köhlbrand","Harburg","Autres"];
 const catInfo=Object.fromEntries(cats.map(x=>[x[0],{icon:x[1],key:x[2]}]));

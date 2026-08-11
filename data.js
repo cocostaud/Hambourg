@@ -843,5 +843,31 @@ window.PLACES=[
     "imageCredit": "",
     "imageKind": "none",
     "imageSource": ""
+  },
+  {
+    "id": 66,
+    "name": "Indra Club",
+    "address": "Große Freiheit 64, 22767 Hamburg, Germany",
+    "category": "Culture & musées",
+    "detail": "Club historique / Beatles / musique live",
+    "quarter": "St. Pauli",
+    "note": "Club historique où les Beatles se sont produits à leurs débuts.",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Indra-Club-Hamburg.png?width=1400",
+    "imageCredit": "Wikimedia Commons",
+    "imageKind": "photo",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Indra-Club-Hamburg.png"
+  },
+  {
+    "id": 67,
+    "name": "Bloomest Waschsalon Hamburg-Harburg",
+    "address": "Harburger Ring 17, 21073 Hamburg, Germany",
+    "category": "Adresses pratiques",
+    "detail": "Laverie libre-service",
+    "quarter": "Harburg",
+    "note": "Adresse pratique à proximité du centre de Harburg.",
+    "image": "",
+    "imageCredit": "",
+    "imageKind": "none",
+    "imageSource": ""
   }
 ];
