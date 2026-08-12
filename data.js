@@ -59,6 +59,8 @@ window.PLACES=[
     "detail": "Auto / lieu insolite",
     "quarter": "Est du port",
     "note": "",
+    "lat": 53.53985,
+    "lng": 10.02719,
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Historie-%20und%20Oldtimer-Tankstelle%20Brandshof.jpg?width=1400",
     "imageCredit": "Wikimedia Commons",
     "imageKind": "photo",
@@ -72,10 +74,10 @@ window.PLACES=[
     "detail": "Marché / gastronomie",
     "quarter": "Schanze & Eimsbüttel",
     "note": "",
-    "image": "",
-    "imageCredit": "",
-    "imageKind": "none",
-    "imageSource": ""
+    "image": "https://www.isemarkt-eppendorf.de/images/isemarkt-eppendorfde/isemarkt-eppendorf-de-20-600.jpg.webp",
+    "imageCredit": "Isemarkt Eppendorf",
+    "imageKind": "photo",
+    "imageSource": "https://www.isemarkt-eppendorf.de/"
   },
   {
     "id": 7,
@@ -98,10 +100,10 @@ window.PLACES=[
     "detail": "Gastronomie / poisson",
     "quarter": "Altona & Fischmarkt",
     "note": "",
-    "image": "",
-    "imageCredit": "",
-    "imageKind": "none",
-    "imageSource": ""
+    "image": "https://www.atlantik-fisch-versand.de/images/1469035127767.jpg",
+    "imageCredit": "Atlantik Fisch",
+    "imageKind": "photo",
+    "imageSource": "https://www.atlantik-fisch-versand.de/info/bistro.html"
   },
   {
     "id": 9,
@@ -137,10 +139,10 @@ window.PLACES=[
     "detail": "Café",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "",
-    "imageCredit": "",
-    "imageKind": "none",
-    "imageSource": ""
+    "image": "https://speicherstadt-kaffee.de/wp-content/uploads/2020/04/auc39fenansicht_1280x800-crop-u235161.jpg",
+    "imageCredit": "Speicherstadt Kaffeerösterei",
+    "imageKind": "photo",
+    "imageSource": "https://speicherstadt-kaffee.de/oeffnungszeiten-anfahrt/"
   },
   {
     "id": 12,
@@ -163,10 +165,10 @@ window.PLACES=[
     "detail": "Boulangerie / snack",
     "quarter": "Harburg",
     "note": "",
-    "image": "",
-    "imageCredit": "",
-    "imageKind": "none",
-    "imageSource": ""
+    "image": "https://www.golocal.de/media/8c19bb169b0fa730a6ad9609db62c679/1500fitsq/39c1ff6df1399292.JPG",
+    "imageCredit": "golocal",
+    "imageKind": "photo",
+    "imageSource": "https://www.golocal.de/hamburg/kaufhaeuser/phoenix-center-YV45s/"
   },
   {
     "id": 14,
@@ -176,10 +178,10 @@ window.PLACES=[
     "detail": "Courses / alimentation",
     "quarter": "Harburg",
     "note": "",
-    "image": "",
-    "imageCredit": "",
-    "imageKind": "none",
-    "imageSource": ""
+    "image": "https://www.golocal.de/media/7410bcc86029d2f16909cf341b00a0a8/1500fitsq/4a40a485ebf640f.JPG",
+    "imageCredit": "golocal",
+    "imageKind": "photo",
+    "imageSource": "https://www.golocal.de/hamburg/lebensmittel/edeka-niemerszein-j507/"
   },
   {
     "id": 15,
@@ -189,10 +191,10 @@ window.PLACES=[
     "detail": "Marché / gastronomie",
     "quarter": "Harburg",
     "note": "",
-    "image": "",
-    "imageCredit": "",
-    "imageKind": "none",
-    "imageSource": ""
+    "image": "https://www.hamburg.de/resource/image/339874/landscape_ratio16x9/1240/697/ab3496166bee3c08cc9783959d6e201b/E134FE22F17BD8B7F25C65360AD7724E/wochenmarkt-harburg-sand.jpg",
+    "imageCredit": "hamburg.de",
+    "imageKind": "photo",
+    "imageSource": "https://www.hamburg.de/freizeit/maerkte-und-messen/wochenmaerkte/wochenmarkt-harburg-sand-318264"
   },
   {
     "id": 16,
@@ -371,10 +373,10 @@ window.PLACES=[
     "detail": "Café",
     "quarter": "St. Pauli",
     "note": "",
-    "image": "",
-    "imageCredit": "",
-    "imageKind": "none",
-    "imageSource": ""
+    "image": "https://gospecialtycoffee.com/medialibrary/2023/05/playground-coffee-st-pauli-hamburg-featured-gospecialtycoffee.jpg",
+    "imageCredit": "Go Specialty Coffee",
+    "imageKind": "photo",
+    "imageSource": "https://gospecialtycoffee.com/v/europe/germany/hamburg/playground-coffee-st-pauli/"
   },
   {
     "id": 30,
@@ -384,10 +386,10 @@ window.PLACES=[
     "detail": "Café",
     "quarter": "Centre",
     "note": "",
-    "image": "",
-    "imageCredit": "",
-    "imageKind": "none",
-    "imageSource": ""
+    "image": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/952/Nord%20Coast%20Coffee%20Roastery.jpg",
+    "imageCredit": "European Coffee Trip",
+    "imageKind": "photo",
+    "imageSource": "https://europeancoffeetrip.com/cafe/nordcoastcoffee-hamburg/"
   },
   {
     "id": 31,
@@ -397,10 +399,10 @@ window.PLACES=[
     "detail": "Café",
     "quarter": "Centre",
     "note": "",
-    "image": "",
-    "imageCredit": "",
-    "imageKind": "none",
-    "imageSource": ""
+    "image": "https://europeancoffeetrip.com/wp-content/uploads/city-guides/cafes/81/public-coffee-roasters-wexstrasse-hamburg.jpg",
+    "imageCredit": "European Coffee Trip",
+    "imageKind": "photo",
+    "imageSource": "https://europeancoffeetrip.com/cafe/publiccoffeeroasters-hamburg/"
   },
   {
     "id": 32,
@@ -462,10 +464,10 @@ window.PLACES=[
     "detail": "Marché aux puces",
     "quarter": "Schanze & Eimsbüttel",
     "note": "",
-    "image": "",
-    "imageCredit": "",
-    "imageKind": "none",
-    "imageSource": ""
+    "image": "https://www.marktundkultur.de/wp-content/uploads/Flohschanze_1.jpg",
+    "imageCredit": "Markt & Kultur Hamburg",
+    "imageKind": "photo",
+    "imageSource": "https://www.marktundkultur.de/?p=59&var=0"
   },
   {
     "id": 37,
@@ -501,10 +503,10 @@ window.PLACES=[
     "detail": "Repère / salon",
     "quarter": "Centre",
     "note": "",
-    "image": "",
-    "imageCredit": "",
-    "imageKind": "none",
-    "imageSource": ""
+    "image": "https://christoph-bellin.s3.eu-central-1.amazonaws.com/2015/08/SgnrUgstnG-21004586616-48b3873d5f_l2.jpg",
+    "imageCredit": "Bildarchiv Hamburg",
+    "imageKind": "photo",
+    "imageSource": "https://bildarchiv-hamburg.com/photo/eingang-hamburg-messe-karolinenstrasse-hamburg-pauli-SgnrUgstnG"
   },
   {
     "id": 40,
@@ -592,10 +594,10 @@ window.PLACES=[
     "detail": "Bar / restaurant",
     "quarter": "St. Pauli",
     "note": "",
-    "image": "",
-    "imageCredit": "",
-    "imageKind": "none",
-    "imageSource": ""
+    "image": "https://kiezjungs.com/wp-content/uploads/2022/10/HRC-Total-3.jpg",
+    "imageCredit": "Kiezjungs",
+    "imageKind": "photo",
+    "imageSource": "https://kiezjungs.com/hard-rock-cafe-hamburg-an-den-landungsbruecken/"
   },
   {
     "id": 47,
@@ -735,10 +737,10 @@ window.PLACES=[
     "detail": "Gastronomie / architecture",
     "quarter": "HafenCity & Speicherstadt",
     "note": "",
-    "image": "",
-    "imageCredit": "",
-    "imageKind": "none",
-    "imageSource": ""
+    "image": "https://oberhafenkantine-hamburg.de/wp-content/uploads/2020/01/Kantine4-800x600-1.jpg",
+    "imageCredit": "Oberhafen-Kantine",
+    "imageKind": "photo",
+    "imageSource": "https://oberhafenkantine-hamburg.de/portfolio-item/oberhafen-kantine/"
   },
   {
     "id": 58,
@@ -826,10 +828,10 @@ window.PLACES=[
     "detail": "Photographie / musée",
     "quarter": "Centre",
     "note": "",
-    "image": "",
-    "imageCredit": "",
-    "imageKind": "none",
-    "imageSource": ""
+    "image": "https://www.deichtorhallen.de/assets/_uploads/allgemein/Bilder/PHOXXI/PHOXXI_HenningRogge.jpg",
+    "imageCredit": "Deichtorhallen Hamburg",
+    "imageKind": "photo",
+    "imageSource": "https://www.deichtorhallen.de/phoxxi"
   },
   {
     "id": 65,
@@ -852,6 +854,8 @@ window.PLACES=[
     "detail": "Club historique / Beatles / musique live",
     "quarter": "St. Pauli",
     "note": "Club historique où les Beatles se sont produits à leurs débuts.",
+    "lat": 53.551911,
+    "lng": 9.958011,
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Indra-Club-Hamburg.png?width=1400",
     "imageCredit": "Wikimedia Commons",
     "imageKind": "photo",
@@ -865,6 +869,19 @@ window.PLACES=[
     "detail": "Laverie libre-service",
     "quarter": "Harburg",
     "note": "Adresse pratique à proximité du centre de Harburg.",
+    "image": "https://www.besser-im-blick.de/templates/yootheme/cache/a3/2025-08-20-bloomest-a34dec91.jpeg",
+    "imageCredit": "Besser im Blick",
+    "imageKind": "photo",
+    "imageSource": "https://www.besser-im-blick.de/"
+  },
+  {
+    "id": 68,
+    "name": "Özlem Köfte Hamburg",
+    "address": "Wilstorfer Straße 72, 21073 Hamburg, Germany",
+    "category": "Manger & boire",
+    "detail": "Köfte / cuisine turque",
+    "quarter": "Harburg",
+    "note": "Restaurant familial spécialisé dans les köfte et la cuisine turque.",
     "image": "",
     "imageCredit": "",
     "imageKind": "none",

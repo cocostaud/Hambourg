@@ -15,13 +15,14 @@
   <div>
     <div class="eyebrow">CARNET PHOTO <span class="version-badge">V5</span></div>
     <h1>Hambourg</h1>
-    <div class="subtitle">67 lieux enregistrés</div>
+    <div class="subtitle">68 lieux enregistrés</div>
   </div>
   <button id="installBtn" class="install-btn" hidden>Installer</button>
 </header>
 
 <nav class="main-tabs">
   <button class="active" data-tab="home"><span>⌂</span> Accueil</button>
+  <button data-tab="planning"><span>▤</span> Planning</button>
   <button data-tab="map"><span>🗺</span> Carte</button>
   <button data-tab="categories"><span>◫</span> Catégories</button>
   <button data-tab="quarters"><span>⌂</span> Quartiers</button>
@@ -36,15 +37,100 @@
     </div>
     <div class="hero-shade"></div>
     <div class="hero-top"><span>CARNET PHOTO</span><b>V5</b></div>
-    <div class="hero-copy"><div class="hero-kicker">Port · architecture · bonnes adresses</div><h2>Hambourg</h2><p>67 lieux · 11 quartiers · votre carnet personnel</p><button data-home-tab="map">Explorer Hambourg <span>→</span></button></div>
+    <div class="hero-copy"><div class="hero-kicker">Port · architecture · bonnes adresses</div><h2>Hambourg</h2><p>68 lieux · 11 quartiers · votre carnet personnel</p><button data-home-tab="map">Explorer Hambourg <span>→</span></button></div>
   </div>
   <div class="home-content">
     <button class="stay-card" data-place-id="65"><span class="stay-icon">🏠</span><span><strong>Votre repère à Harburg</strong><small>Lüneburger Straße 30 · Hébergement</small></span><em>→</em></button>
     <div class="home-shortcuts">
-      <button data-home-tab="map"><span>⌖</span>Carte</button><button data-home-tab="categories"><span>◫</span>Catégories</button><button data-home-tab="quarters"><span>◎</span>Quartiers</button>
+      <button data-home-tab="planning"><span>▤</span>Planning</button><button data-home-tab="map"><span>⌖</span>Carte</button><button data-home-tab="categories"><span>◫</span>Catégories</button><button data-home-tab="quarters"><span>◎</span>Quartiers</button>
     </div>
-    <div class="featured-head"><h2>À découvrir</h2><button data-home-tab="categories">Voir les 67 lieux →</button></div>
+    <div class="featured-head"><h2>À découvrir</h2><button data-home-tab="categories">Voir les 68 lieux →</button></div>
     <div id="featuredPlaces" class="featured-grid"></div>
+  </div>
+</section>
+
+<section id="tab-planning" class="tab content-tab planning-tab">
+  <div class="planning-hero">
+    <div><span class="planning-kicker">25 → 30 SEPTEMBRE 2026</span><h2>Programme du séjour</h2><p>Six journées organisées par secteur, lumière et jours de marché.</p></div>
+    <span class="planning-count">6 jours</span>
+  </div>
+  <div class="planning-notice"><span>🚆</span><p>Programme conçu uniquement avec les transports en commun HVV et la marche : S-Bahn, U-Bahn, bus et ferry public. Les lignes sont indiquées dans chaque journée ; vérifier les horaires dans l’application HVV le jour même. Arrivée de Berlin le vendredi à 15 h 30 ; départ à confirmer.</p></div>
+  <div class="day-list">
+    <article class="day-card">
+      <header><div class="date-box"><b>25</b><span>VEN.</span></div><div><small>JOUR 1 · ARRIVÉE</small><h3>Premiers pas à Harburg</h3><p>Installation, repères pratiques et lumière du soir.</p></div></header>
+      <div class="timeline">
+        <div><time>15 h 30</time><section><h4>Arrivée de Berlin</h4><p>Arrivée à Hamburg Hbf, puis installation au 30 Lüneburger Straße.</p><button data-plan-id="65">Voir l’hébergement</button></section></div>
+        <div class="transport-step"><time>Transport</time><section><h4>Hamburg Hbf → Harburg Rathaus</h4><p>S-Bahn S3 ou S5 jusqu’à Harburg Rathaus, puis quelques minutes à pied jusqu’au logement.</p></section></div>
+        <div><time>17 h</time><section><h4>Centre de Harburg</h4><p>Premières courses et repérage autour du logement, sans programme trop chargé.</p></section></div>
+        <div><time>18 h 30</time><section><h4>Harburger Binnenhafen</h4><p>Courte promenade parmi les canaux et entrepôts, selon la fatigue et la météo.</p></section></div>
+        <div><time>Dîner</time><section><h4>Özlem Köfte Hamburg</h4><p>Cuisine turque familiale près du logement.</p><button data-plan-id="68">Voir la fiche</button></section></div>
+      </div>
+    </article>
+
+    <article class="day-card featured-day">
+      <header><div class="date-box"><b>26</b><span>SAM.</span></div><div><small>JOUR 2 · QUARTIERS</small><h3>Flohschanze, Eimsbüttel & Altona</h3><p>Le Hambourg des habitants, marchés et photographie de rue.</p></div></header>
+      <div class="timeline">
+        <div class="transport-step"><time>Transport</time><section><h4>Harburg Rathaus → Sternschanze</h4><p>S5 directe vers Sternschanze. Si nécessaire, S3 puis correspondance dans le centre.</p></section></div>
+        <div><time>Matin</time><section><h4>Flohmarkt Flohschanze</h4><p>Chiner des appareils photo anciens dès l’ouverture.</p><button data-plan-id="36">Voir la fiche</button></section></div>
+        <div><time>Midi</time><section><h4>Schanze & Eimsbüttel</h4><p>Cafés, façades, vélos et commerces indépendants.</p></section></div>
+        <div class="transport-step"><time>Transport</time><section><h4>Sternschanze → Altona</h4><p>S-Bahn jusqu’à Altona, puis marche vers les rues d’Ottensen.</p></section></div>
+        <div><time>Après-midi</time><section><h4>Ottensen et Altona</h4><p>Cours intérieures, ateliers puis descente vers l’Elbe.</p></section></div>
+        <div class="transport-step"><time>Transport</time><section><h4>Altona → Reeperbahn</h4><p>S-Bahn S1 jusqu’à Reeperbahn, puis parcours à pied dans St. Pauli.</p></section></div>
+        <div><time>Soir</time><section><h4>St. Pauli et Reeperbahn</h4><p>Néons, scènes de rue et Indra Club.</p><button data-plan-id="66">Voir l’Indra Club</button></section></div>
+        <div class="transport-step"><time>Retour</time><section><h4>Reeperbahn → Harburg Rathaus</h4><p>S1 jusqu’à Hamburg Hbf, puis S3 ou S5 vers Harburg Rathaus.</p></section></div>
+      </div>
+    </article>
+
+    <article class="day-card">
+      <header><div class="date-box"><b>27</b><span>DIM.</span></div><div><small>JOUR 3 · LE PORT</small><h3>Fischmarkt & Landungsbrücken</h3><p>Mouvement, ferries et coucher de soleil sur l’Elbe.</p></div></header>
+      <div class="timeline">
+        <div class="transport-step"><time>Transport</time><section><h4>Harburg Rathaus → Fischmarkt</h4><p>S3 ou S5 vers le centre, correspondance pour Reeperbahn ou Königstraße, puis marche jusqu’au marché.</p></section></div>
+        <div><time>Très tôt</time><section><h4>Fischmarkt</h4><p>Ambiance matinale et activité des quais.</p><button data-plan-name="Fischmarkt Hamburg-Altona">Voir la fiche</button></section></div>
+        <div class="transport-step"><time>9 h 30</time><section><h4>Ferry public 62 vers Finkenwerder</h4><p>Embarquement à Landungsbrücken, pont extérieur et traversée du port avec un titre HVV ordinaire.</p></section></div>
+        <div><time>Retour</time><section><h4>Finkenwerder → Dockland</h4><p>Reprendre le ferry 62 et descendre à Dockland (Fischereihafen), puis continuer à pied.</p><button data-plan-id="62">Voir Dockland</button></section></div>
+        <div><time>Après-midi</time><section><h4>Alter Elbtunnel</h4><p>Retour vers Landungsbrücken en bus 111 ou ferry 62, puis visite du tunnel historique.</p></section></div>
+        <div><time>Coucher</time><section><h4>Park Fiction</h4><p>Silhouettes, cargos et lumière sur l’Elbe.</p></section></div>
+        <div class="transport-step"><time>Retour</time><section><h4>St. Pauli → Harburg Rathaus</h4><p>Marche jusqu’à Reeperbahn, S1 vers Hamburg Hbf, puis S3 ou S5 jusqu’à Harburg Rathaus.</p></section></div>
+      </div>
+    </article>
+
+    <article class="day-card">
+      <header><div class="date-box"><b>28</b><span>LUN.</span></div><div><small>JOUR 4 · BRIQUE & EAU</small><h3>Elbphilharmonie, Speicherstadt & Oberhafen</h3><p>L’architecture extérieure le matin, puis un parcours presque entièrement à pied.</p></div></header>
+      <div class="timeline">
+        <div class="transport-step"><time>Transport</time><section><h4>Harburg → Baumwall</h4><p>S-Bahn jusqu’au centre puis U3 jusqu’à Baumwall ; marche vers l’Elbphilharmonie.</p></section></div>
+        <div><time>8 h 30</time><section><h4>Elbphilharmonie — extérieur</h4><p>Façade ondulée, socle de briques, escaliers, quais et reflets. Aucune visite de la Plaza n’est prévue.</p><button data-plan-id="63">Voir la fiche</button></section></div>
+        <div><time>10 h</time><section><h4>Speicherstadt et Kaffeerösterei</h4><p>Sandtorhafen, Wasserschloss, canaux puis pause dans l’ancien entrepôt.</p><button data-plan-id="11">Voir la fiche</button></section></div>
+        <div><time>Midi</time><section><h4>Oberhafen-Kantine</h4><p>Déjeuner dans la célèbre cantine penchée du port.</p><button data-plan-id="57">Voir la fiche</button></section></div>
+        <div><time>Après-midi</time><section><h4>Oberhafen, PHOXXI et Deichtorhallen</h4><p>Halles ferroviaires, photographie contemporaine et architecture.</p><button data-plan-id="64">Voir PHOXXI</button></section></div>
+        <div><time>Soir</time><section><h4>Miniatur Wunderland</h4><p>Visite intérieure de deux heures, idéale si la météo se dégrade.</p></section></div>
+        <div class="transport-step"><time>Retour</time><section><h4>Speicherstadt → Harburg Rathaus</h4><p>Marche jusqu’à Baumwall ou Rödingsmarkt, U3 vers Hamburg Hbf, puis S3 ou S5 vers Harburg Rathaus.</p></section></div>
+      </div>
+    </article>
+
+    <article class="day-card">
+      <header><div class="date-box"><b>29</b><span>MAR.</span></div><div><small>JOUR 5 · ARCHITECTURE</small><h3>Isemarkt, Elbbrücken & Brandshof</h3><p>Un parcours progressif sans retour inutile vers le centre.</p></div></header>
+      <div class="timeline">
+        <div class="transport-step"><time>Transport</time><section><h4>Harburg Rathaus → Hoheluftbrücke</h4><p>S5 jusqu’à Sternschanze, puis U3 jusqu’à Hoheluftbrücke.</p></section></div>
+        <div><time>8 h 30</time><section><h4>Isemarkt</h4><p>Marché du mardi sous le métro aérien.</p><button data-plan-id="6">Voir la fiche</button></section></div>
+        <div><time>10 h</time><section><h4>Isebekkanal & Eppendorfer Baum</h4><p>Petite boucle à pied au bord du canal : viaduc, péniches, façades et cafés du quartier. Aucun transport supplémentaire.</p></section></div>
+        <div class="transport-step"><time>11 h 30</time><section><h4>Hoheluftbrücke → HafenCity Universität</h4><p>U3 jusqu’à Schlump, U2 jusqu’à Jungfernstieg, puis U4 vers HafenCity Universität.</p></section></div>
+        <div><time>Après-midi</time><section><h4>HafenCity Universität et Elbbrücken</h4><p>Architecture futuriste, cubes lumineux et structures ferroviaires.</p></section></div>
+        <div class="transport-step"><time>Transport</time><section><h4>HafenCity Universität → Elbbrücken</h4><p>Une station en U4, ou balade à pied à travers le nouveau quartier si la météo est agréable.</p></section></div>
+        <div class="transport-step"><time>Transport</time><section><h4>Elbbrücken → Brandshof</h4><p>Bus HVV en direction de Rothenburgsort, puis courte marche jusqu’à l’ancienne station-service. Choisir la liaison du moment dans l’application HVV.</p></section></div>
+        <div><time>15 h 30</time><section><h4>Oldtimer Tankstelle Brandshof</h4><p>Ancienne station-service et voitures de collection.</p><button data-plan-id="5">Voir la fiche</button></section></div>
+        <div class="transport-step"><time>Retour</time><section><h4>Brandshof → Harburg</h4><p>Bus jusqu’au S-Bahn de Rothenburgsort, puis S-Bahn vers Harburg.</p></section></div>
+      </div>
+    </article>
+
+    <article class="day-card industrial-day">
+      <header><div class="date-box"><b>30</b><span>MER.</span></div><div><small>JOUR 6 · DÉPART</small><h3>Dernières heures à Harburg</h3><p>Une journée volontairement légère et sans contrainte.</p></div></header>
+      <div class="timeline">
+        <div><time>Matin</time><section><h4>Rangement et petit-déjeuner</h4><p>Préparation des bagages et départ tranquille de l’hébergement.</p></section></div>
+        <div><time>Option</time><section><h4>Dernières courses à Harburg</h4><p>Marché du Sand, produits régionaux ou laverie Bloomest uniquement si nécessaire.</p><button data-plan-id="67">Voir Bloomest</button></section></div>
+        <div><time>Déjeuner</time><section><h4>Repas près du logement</h4><p>Créneau libre, sans réservation ni déplacement vers le centre.</p></section></div>
+        <div class="transport-step"><time>Départ</time><section><h4>Harburg Rathaus → gare de départ</h4><p>S3 ou S5 vers Hamburg Hbf si le train repart de la gare centrale. Horaire et gare à confirmer.</p></section></div>
+      </div>
+    </article>
   </div>
 </section>
 
@@ -71,7 +157,7 @@
 <section id="tab-categories" class="tab content-tab">
   <div class="section-intro">
     <h2>Explorer par catégorie</h2>
-    <p>Les mêmes 67 lieux, regroupés par type.</p>
+    <p>Les mêmes 68 lieux, regroupés par type.</p>
   </div>
   <label class="searchbox list-search"><span>⌕</span><input id="categorySearch" type="search" placeholder="Rechercher…"></label>
   <div id="categoryGroups"></div>
